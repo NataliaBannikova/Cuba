@@ -524,11 +524,20 @@ ul {
         display: none;
         padding-top: 60px;
         text-align: center;
+        border-bottom: 4px solid #ECB84C;
     }
 
     .menu__list-link {
         display: block;
-    }
+        border-top: 4px solid #ECB84C;
+        transition: all 0s;
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        -ms-transition: all 0s;
+        -o-transition: all 0s;
+}
 
-    .
+    .menu__list-link:hover {
+        border-bottom: 4px solid transparent;
+    }
 }
