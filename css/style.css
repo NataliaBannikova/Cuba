@@ -541,3 +541,32 @@ ul {
         border-bottom: 4px solid transparent;
     }
 }
+
+@media (max-width: 540px) {
+    .header__text {
+        display: none;
+    }
+
+    .header__top-inner {
+        border: 2px solid #ECB84C;
+    }
+
+    .header__top {
+        padding: 10px;
+    }
+
+    .header__title {
+        font-size: 100px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 700px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
